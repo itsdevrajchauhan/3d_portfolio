@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Python & Django Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "REST API Developer",
     icon: creator,
   },
 ];
@@ -116,59 +116,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Master of Computer Applications (MCA)",
+    company_name: "NCRD's Sterling Institute of Management Studies",
+    icon: creator, // You can replace with a graduation-cap icon later
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2024 - 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Pursuing MCA from Mumbai University.",
+      "Current CGPA: 8.7/10.",
+      "Focused on Full Stack Development, React.js, Django, REST APIs, and Modern Web Technologies.",
+      "Built multiple real-world full-stack projects during the course.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Bachelor of Science (Computer Science)",
+    company_name: "V.K. Krishna Menon College",
+    icon: web,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2021 - 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Graduated with 7.95 CGPA.",
+      "Studied Data Structures, DBMS, Operating Systems, Networking, and Software Engineering.",
+      "Strengthened programming fundamentals in JavaScript and Python.",
+      "Completed several academic and personal development projects.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Higher Secondary Certificate (Science)",
+    company_name: "P.A. Menon College",
+    icon: mobile,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed HSC with 81.60%.",
+      "Studied Physics, Chemistry, Mathematics, and Computer Science.",
+      "Developed strong analytical and logical reasoning skills.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Secondary School Certificate (SSC)",
+    company_name: "M.B.S Hindi High School",
+    icon: backend,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed SSC with 79%.",
+      "Built a strong academic foundation and developed an interest in computers and technology.",
     ],
   },
 ];
-
 const testimonials = [
   {
     testimonial:
@@ -198,67 +194,91 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Discone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A modern community platform featuring real-time chat, live meetings, audio/video calling, and user authentication.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Socket.io",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/itsdevrajchauhan",
   },
+
   {
-    name: "Job IT",
+    name: "TicketSphere",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A full-stack Event Ticket Booking platform with React frontend, Django REST backend, JWT authentication, and SQLite database.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JWT",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/itsdevrajchauhan",
   },
+
   {
-    name: "Trip Guide",
+    name: "Movie Search",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A React-based movie search application integrated with the TMDB API for real-time movie and TV show information.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TMDB API",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Vite",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/itsdevrajchauhan",
+  },
+
+  {
+    name: "URL Shortener",
+    description:
+      "A URL shortening service built using Node.js, Express, MongoDB, and Mongoose with REST API testing using Postman.",
+    tags: [
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/itsdevrajchauhan",
   },
 ];
 
